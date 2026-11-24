@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .relative {
+        background-color: rgb(172, 0, 0);
+        position: relative;
+        width: 600px;
+        height: 450px;
+        top: 200px;
+        left: 200px;
+      }
+      .absolute {
+        background-color: rgb(2, 2, 146);
+        position: absolute;
+        top: 110px;
+        left: 0px;
+        width: 600px;
+        height: 250px;
+      }
+      .absolute2 {
+        background-color: rgb(255, 255, 255);
+        position: absolute;
+        border-radius: 50%;
+        top: 140px;
+        left: 205px;
+        width: 190px;
+        height: 190px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="relative">
+      <div class="absolute"></div>
+      <div class="absolute2"></div>
+    </div>
+  </body>
+</html>
